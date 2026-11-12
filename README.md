@@ -1,20 +1,18 @@
 # Research and Patent Landscape Informatics
 
-Computational approaches to exploring research, funding, patents, researchers, inventors, and innovation landscapes.
+Computational approaches to exploring research, funding, patent, and innovation landscapes.
 
 ## Overview
 
 This workshop series introduces computational approaches to research and patent landscape analysis. The workshops explore several major sources of scholarly and patent information and demonstrate how Python, APIs, SQL, network analysis, and local generative AI can be used to investigate research and innovation.
 
-Research and patent landscapes can bring together many kinds of information. Scholarly databases describe publications, researchers, institutions, citations, and research topics. Funding databases provide information about grants and research support. Patent databases describe inventions, inventors, organizations, classifications, citations, and the documents associated with patent applications.
+Research and patent landscapes can bring together many kinds of information. Scholarly databases provide information on publications, patents, researchers, institutions, citations, and research topics. Rather than focusing on a single database or a single approach to analyzing research and innovation data, this series examines several different information systems and the relationships among the data they contain.
 
-Rather than focusing on a single database or a single approach to patent searching, this series examines several different information systems and the relationships among the data they contain.
+Each workshops begins with data access. Participants use OpenAlex, Dimensions, the USPTO Open Data Portal, Google Patents, and Google BigQuery to search for and retrieve information about publications, grants, patents, researchers, and inventors. Examples move from web interfaces to APIs and SQL so that participants can see both how these systems are searched interactively and how their underlying data can be investigated computationally.
 
-The workshops begin with data access. Participants use OpenAlex, Dimensions, the USPTO Open Data Portal, Google Patents, and Google BigQuery to search for and retrieve information about publications, grants, patents, researchers, and inventors. Examples move from web interfaces to APIs and SQL so that participants can see both how these systems are searched interactively and how their underlying data can be investigated computationally.
+Later projects build on these data-access skills, including summarization, classification, and network analysis of interconnected publications and patents. A final capstone combines USPTO Patent File Wrapper data with locally running AI models through Ollama to extract patent text, summarize an invention, interpret patent drawings, and experiment with prior-art relevance screening.
 
-Later projects build on these data-access skills. OpenAlex publication data is used to construct researcher collaboration networks, while USPTO patent data is used to construct inventor collaboration networks. A final capstone combines USPTO Patent File Wrapper data with locally running AI models through Ollama to extract patent text, summarize an invention, interpret patent drawings, and experiment with prior-art relevance screening.
-
-The examples are deliberately introductory. They are intended to provide enough experience with each system and method for participants to begin adapting the workflows to their own research questions rather than providing complete or automated patent landscape analyses.
+The examples are deliberately introductory. They are intended to provide enough experience with each system and method for participants to begin adapting the workflows to their own research questions rather than providing complete or automated data analytics pipeline.
 
 An important goal of the series is not simply to learn a particular set of databases. It is to develop a transferable approach to working with research information:
 
