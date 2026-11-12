@@ -124,7 +124,7 @@ The [USPTO Open Data Portal](https://data.uspto.gov/) provides programmatic acce
 
 The workshops use the USPTO API to work with structured patent metadata as well as the underlying documents associated with patent applications.
 
-USPTO Open Data Portal access requires an API key.
+USPTO Open Data Portal access requires an API key. To generate a key, you must create a public account, but no special institutional access is required. 
 
 ### Google Patents and BigQuery
 
@@ -133,6 +133,8 @@ USPTO Open Data Portal access requires an API key.
 Google also makes large patent datasets available through [Google BigQuery](https://cloud.google.com/bigquery), allowing patent data to be queried using SQL.
 
 Together, these resources provide an opportunity to move between interactive patent searching, individual patent records, and large-scale computational queries.
+
+Access to BigQuery is available through the sandbox for anyone with a google account (email, drive). No payment method is required to query google public data sources (including publications and patents) through the sandbox. Paid tiers will provide better performance and higher memory limits but are not required for this workshop. 
 
 ## Workbooks
 
