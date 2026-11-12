@@ -73,6 +73,7 @@ This series builds on the UCSF Library's broader curriculum in computational dat
 
 Participants should have some previous experience with:
 
+- Unix
 - Python
 - pandas
 - APIs and JSON
