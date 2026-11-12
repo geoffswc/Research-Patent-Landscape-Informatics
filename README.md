@@ -168,7 +168,7 @@ This workbook introduces the Dimensions API and Dimensions Search Language (DSL)
 
 The example retrieves a small set of publications, inspects the returned records, searches publications for a research topic, selects useful fields, creates a pandas DataFrame, and produces a simple visualization.
 
-Dimensions API access requires appropriate institutional access.
+Dimensions API access requires an institutional account with API permissions.
 
 #### [Dimensions-Grant-to-Patents.ipynb](Dimensions-Grant-to-Patents.ipynb)
 
@@ -216,15 +216,13 @@ The examples are intended to be modified to investigate technologies, inventors,
 
 ### Network Project Workbooks
 
+This workshop uses researcher and innovator data from OpenAlex and the USPTO Open Data Portal to construct and visualize innovation networks. 
+
 The two network notebooks are intentionally parallel applications of the same general idea.
 
 [OpenAlex-Coauthor-Network.ipynb](OpenAlex-Coauthor-Network.ipynb) constructs a researcher collaboration network from publication authorship.
 
 [USPTO-CoInventor-Network.ipynb](USPTO-CoInventor-Network.ipynb) constructs an inventor collaboration network from patent inventorship.
-
-The projects remain separate. Determining whether researchers represented in scholarly databases and inventors represented in patent databases are the same people requires identity resolution across different information systems and is better treated as a research project rather than assumed automatically.
-
-For a broader introduction to network analysis, these notebooks can be supplemented with workshop materials covering NetworkX and graph analysis methods.
 
 ### Local AI Patent Analysis Workbook
 
