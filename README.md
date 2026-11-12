@@ -58,13 +58,11 @@ Research and patent landscape analysis frequently involves incomplete metadata, 
 By the end of this workshop series, participants will be able to:
 
 - Identify several major sources of research and patent information
-- Understand differences among publications, grants, patent applications, patents, researchers, inventors, organizations, and classifications represented in research information systems
 - Search research and patent databases through their web interfaces
 - Retrieve research and patent data programmatically using APIs
 - Work with JSON returned by web APIs
-- Organize retrieved data using pandas
+- Organize and build small research datasets using pandas
 - Use SQL to query large public patent datasets
-- Understand the role of identifiers and classifications in research and patent information
 - Construct simple researcher and inventor collaboration networks
 - Apply locally running AI models to patent documents and drawings
 - Adapt example queries and workflows to investigate research and technology areas of interest
