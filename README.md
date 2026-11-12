@@ -81,25 +81,22 @@ Participants should have some previous experience with:
 
 The workshops use these technologies to investigate research and patent information rather than teaching each technology from the beginning.
 
-Participants do not need previous experience with patent searching or patent landscape analysis.
-
-Some workshops require access to particular databases or services. Setup and access requirements are described with the individual workshop materials.
+Some workshops require access to particular databases or services. Participants are not expected to have prior experience with these databases. Setup and access requirements are described with the individual workshop materials.
 
 ## Approach
 
-The data-access workshops follow a similar pattern.
+The data-access workshops follow a consistent pattern.
 
 We begin with the web interface or search system so that we can understand the information source itself. We then retrieve information programmatically and inspect the data returned by the system.
 
 A typical workshop moves through:
 
-1. Search or explore the information source
-2. Retrieve a known record
-3. Perform a broader search
-4. Inspect JSON or other structured data
-5. Organize results in a pandas DataFrame
-6. Create a simple visualization or analysis
-7. Modify the example to investigate another topic
+1. Search or explore the information source through the web based User Interface
+2. Search the information source using Python based API access
+3. Inspect JSON or other structured data
+4. Organize results in a pandas DataFrame
+5. Create a simple visualization or analysis
+6. Modify the example to investigate another topic
 
 The goal is not to provide an exhaustive introduction to every database. Instead, the workshops provide enough experience with several different systems for participants to begin adapting the methods to their own research questions.
 
