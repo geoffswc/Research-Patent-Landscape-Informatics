@@ -1,0 +1,41 @@
+cff-version: 1.2.0
+message: "If you use these materials, please cite them as follows."
+authors:
+  - family-names: "Boushey"
+    given-names: "Geoffrey"
+    affiliation: "UCSF Library"
+title: "Research and Patent Landscape Informatics"
+version: 1.0.0
+date-released: 2026-11-13
+url: "https://github.com/UCSF-DSOS/Research-Patent-Landscape-Workshop"
+abstract: >-
+  A workshop curriculum for computational research and patent landscape
+  informatics. The repository introduces methods for retrieving and
+  analyzing scholarly research, grant, and patent information using
+  OpenAlex, Dimensions, the USPTO Open Data Portal, Google Patents,
+  and Google BigQuery. Applied examples use Python, APIs, JSON, pandas,
+  SQL, and network analysis to explore relationships among researchers,
+  inventors, research funding, and patents. A capstone workflow combines
+  USPTO patent data with locally running generative AI models through
+  Ollama for OCR, patent summarization, image analysis, and prior-art
+  relevance screening.
+keywords:
+  - research-informatics
+  - patent-informatics
+  - patent-landscape
+  - research-landscape
+  - patents
+  - scholarly-data
+  - grants
+  - openalex
+  - dimensions
+  - uspto
+  - google-patents
+  - bigquery
+  - python
+  - sql
+  - network-analysis
+  - generative-ai
+  - ollama
+  - ucsf-library
+license: CC-BY-4.0
