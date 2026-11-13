@@ -35,13 +35,13 @@ Research and patent landscape analysis frequently involves incomplete metadata, 
   - [Dimensions](#dimensions)
   - [USPTO](#uspto)
   - [Google Patents and BigQuery](#google-patents-and-bigquery)
-- [Workbooks](#workbooks)
-  - [OpenAlex Workbooks](#openalex-workbooks)
-  - [Dimensions Workbooks](#dimensions-workbooks)
-  - [USPTO Workbooks](#uspto-workbooks)
-  - [Google Patents and BigQuery Workbook](#google-patents-and-bigquery-workbook)
-  - [Network Project Workbooks](#network-project-workbooks)
-  - [Local AI Patent Analysis Workbook](#local-ai-patent-analysis-workbook)
+- [Workshops](#workshops)
+  - [OpenAlex](#openalex-workbooks)
+  - [Dimensions](#dimensions-workbooks)
+  - [USPTO](#uspto-workbooks)
+  - [Google Patents and BigQuery](#google-patents-and-bigquery-workbook)
+  - [Scholar and Innovator Networks](#network-project-workbooks)
+  - [Local AI Patent Analysis](#local-ai-patent-analysis-workbook)
 - [Exploring Your Own Research Questions](#exploring-your-own-research-questions)
 - [Relationship to the Workshop Series](#relationship-to-the-workshop-series)
 - [Reading and Research Resources](#reading-and-research-resources)
@@ -138,13 +138,13 @@ Together, these resources provide an opportunity to move between interactive pat
 
 Access to BigQuery is available through the sandbox for anyone with a google account (email, drive). No payment method is required to query google public data sources (including publications and patents) through the sandbox. Paid tiers will provide better performance and higher memory limits but are not required for this workshop. 
 
-## Workbooks
+## Workshops
 
 The notebooks and workshop materials in this repository progress from introductory data access to small applied projects.
 
 Participants are encouraged to modify the examples and investigate researchers, inventors, technologies, grants, and research areas related to their own interests.
 
-### OpenAlex Workbooks
+### OpenAlex
 
 #### [OpenAlex-API-Introduction.ipynb](https://github.com/UCSF-DSOS/Research-Patent-Landscape-Informatics/blob/main/OpenAlex-API-Introduction.ipynb)
 
@@ -162,7 +162,7 @@ Starting with one researcher, the notebook retrieves recent publications, identi
 
 The resulting network is constructed and visualized using NetworkX.
 
-### Dimensions Workbooks
+### Dimensions
 
 #### [Dimensions-API-Introduction.ipynb](https://github.com/UCSF-DSOS/Research-Patent-Landscape-Informatics/blob/main/Dimensions-API-Introduction.ipynb)
 
@@ -180,7 +180,7 @@ Starting with a research area, the notebook searches Dimensions for grants assoc
 
 The example demonstrates how classifications, identifiers, and relationships in a research information system can be used to move between different kinds of records and investigate connections between research funding and innovation.
 
-### USPTO Workbooks
+### USPTO
 
 #### [USPTO-API-Introduction.ipynb](https://github.com/UCSF-DSOS/Research-Patent-Landscape-Informatics/blob/main/USPTO-API-Introduction.ipynb)
 
@@ -206,7 +206,7 @@ Starting with one inventor, the notebook retrieves patent applications, identifi
 
 Inventors become nodes, while appearing together on a patent application creates weighted edges. The resulting network is constructed and visualized using NetworkX.
 
-### Google Patents and BigQuery Workbook
+### Google Patents and BigQuery
 
 #### [GoogleBigQuery.md](GoogleBigQuery.md)
 
@@ -216,7 +216,7 @@ Participants begin with the Google Patents web interface to search for patents a
 
 The examples are intended to be modified to investigate technologies, inventors, organizations, patent classifications, and research areas of interest.
 
-### Network Project Workbooks
+### Network Project
 
 This workshop uses researcher and innovator data from OpenAlex and the USPTO Open Data Portal to construct and visualize innovation networks. 
 
@@ -226,7 +226,7 @@ The two network notebooks are intentionally parallel applications of the same ge
 
 [USPTO-CoInventor-Network.ipynb](https://github.com/UCSF-DSOS/Research-Patent-Landscape-Informatics/blob/main/USPTO-CoInventor-Network.ipynb) constructs an inventor collaboration network from patent inventorship.
 
-### Local AI Patent Analysis Workbook
+### Local AI Patent Analysis
 
 #### [USPTO-Ollama-Patent-Analysis.ipynb](https://github.com/UCSF-DSOS/Research-Patent-Landscape-Informatics/blob/main/USPTO-Ollama-Patent-Analysis.ipynb)
 
