@@ -140,9 +140,18 @@ Access to BigQuery is available through the sandbox for anyone with a google acc
 
 ## Workshops
 
-The notebooks and workshop materials in this repository progress from introductory data access to small applied projects.
+This repository is designed to support a six workshop series. The first four focus on access to a data source through a web UI and through a programmatic API. The final two focus on analysis of data through network graphing and GenAI summarization, transcription, and image analysis.
 
-Participants are encouraged to modify the examples and investigate researchers, inventors, technologies, grants, and research areas related to their own interests.
+The following workshops 
+
+* OpenAlex
+* Dimensions
+* USPTO
+* Google Patents
+* Network Graphs and Analysis with NetworkX
+* GenAI Analysis with Ollama and Local Models
+
+The notebooks and workshop materials in this repository progress from introductory data access to small applied projects. Participants are encouraged to modify the examples and investigate researchers, inventors, technologies, grants, and research areas related to their own interests. Data sources and technologies are chosen based on their relevance to research and patent analytics and their availability to UCSF researchers. 
 
 ### OpenAlex Workshop
 
