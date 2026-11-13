@@ -52,6 +52,7 @@ Research and patent landscape analysis frequently involves incomplete metadata, 
   - [AI and Patentable Research](#ai-and-patentable-research)
 - [Instructor](#instructor)
 - [Additional Resources](#additional-resources)
+- [Citation](#citation)
 
 ## Objectives
 
@@ -382,3 +383,24 @@ Geoff teaches courses and provides consultations on foundational programming, da
 - [Ollama](https://ollama.com/)
 - [Local AI with Ollama](https://ucsf-dsos.github.io/Local-AI-With-Ollama/)
 - [WIPO](https://www.wipo.int/)
+
+## Citation
+
+If you use this curriculum, code, or these workshop materials in your research or teaching, please cite them using `CITATION.cff` or as follows:
+
+**APA:**
+
+> Boushey, G. (2026). *Research and Patent Landscape Informatics* (Version 1.0.0) [Computer software]. UCSF Library. https://github.com/UCSF-DSOS/Research-Patent-Landscape-Workshop
+
+**BibTeX:**
+
+```bibtex
+@software{Boushey_Research_Patent_Landscape_Informatics_2026,
+  author    = {Boushey, Geoffrey},
+  title     = {Research and Patent Landscape Informatics},
+  url       = {https://github.com/UCSF-DSOS/Research-Patent-Landscape-Workshop},
+  version   = {1.0.0},
+  year      = {2026},
+  publisher = {UCSF Library}
+}
+```
