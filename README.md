@@ -173,11 +173,11 @@ Dimensions API access requires an institutional account with API permissions.
 
 #### [Dimensions-Grant-to-Patents.ipynb](Dimensions-Grant-to-Patents.ipynb)
 
-This workbook explores a relationship between research funding and patent activity.
+This workbook explores relationships between research funding and patent activity.
 
-Starting with a known research grant, the notebook retrieves information about the grant and then searches Dimensions for patents associated with that grant.
+Starting with a research area, the notebook searches Dimensions for grants associated with the University of California, San Francisco. It then uses the Dimensions grant IDs to find patent records associated with those grants.
 
-The example demonstrates how relationships represented in a research information system can be followed across different kinds of records.
+The example demonstrates how classifications, identifiers, and relationships in a research information system can be used to move between different kinds of records and investigate connections between research funding and innovation.
 
 ### USPTO Workbooks
 
