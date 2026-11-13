@@ -146,7 +146,7 @@ Participants are encouraged to modify the examples and investigate researchers, 
 
 ### OpenAlex Workbooks
 
-#### [OpenAlex-API-Introduction.ipynb](https://github.com/geoffswc/Research-Patent-Landscape-Informatics/blob/main/OpenAlex-API-Introduction.ipynb)
+#### [OpenAlex-API-Introduction.ipynb](https://github.com/UCSF-DSOS/Research-Patent-Landscape-Informatics/blob/main/OpenAlex-API-Introduction.ipynb)
 
 This workbook introduces the OpenAlex API using scholarly publication data.
 
@@ -154,7 +154,7 @@ The example begins with a single known publication and examines the JSON returne
 
 The workbook introduces the general pattern used throughout the series: retrieve data, inspect the response, organize the results, and modify the search to investigate another question.
 
-#### [OpenAlex-Coauthor-Network.ipynb](https://github.com/geoffswc/Research-Patent-Landscape-Informatics/blob/main/OpenAlex-Coauthor-Network.ipynb)
+#### [OpenAlex-Coauthor-Network.ipynb](https://github.com/UCSF-DSOS/Research-Patent-Landscape-Informatics/blob/main/OpenAlex-Coauthor-Network.ipynb)
 
 This project uses OpenAlex publication data to construct a researcher collaboration network.
 
@@ -164,7 +164,7 @@ The resulting network is constructed and visualized using NetworkX.
 
 ### Dimensions Workbooks
 
-#### [Dimensions-API-Introduction.ipynb](https://github.com/geoffswc/Research-Patent-Landscape-Informatics/blob/main/Dimensions-API-Introduction.ipynb)
+#### [Dimensions-API-Introduction.ipynb](https://github.com/UCSF-DSOS/Research-Patent-Landscape-Informatics/blob/main/Dimensions-API-Introduction.ipynb)
 
 This workbook introduces the Dimensions API and Dimensions Search Language (DSL).
 
@@ -182,7 +182,7 @@ The example demonstrates how classifications, identifiers, and relationships in 
 
 ### USPTO Workbooks
 
-#### [USPTO-API-Introduction.ipynb](https://github.com/geoffswc/Research-Patent-Landscape-Informatics/blob/main/USPTO-API-Introduction.ipynb)
+#### [USPTO-API-Introduction.ipynb](https://github.com/UCSF-DSOS/Research-Patent-Landscape-Informatics/blob/main/USPTO-API-Introduction.ipynb)
 
 This workbook introduces the USPTO Patent File Wrapper API.
 
@@ -190,7 +190,7 @@ The example retrieves a single known patent application, examines the JSON retur
 
 USPTO Open Data Portal access requires an API key.
 
-#### [USPTO-File-Wrapper-Drawings.ipynb](https://github.com/geoffswc/Research-Patent-Landscape-Informatics/blob/main/USPTO-File-Wrapper-Drawings.ipynb)
+#### [USPTO-File-Wrapper-Drawings.ipynb](https://github.com/UCSF-DSOS/Research-Patent-Landscape-Informatics/blob/main/USPTO-File-Wrapper-Drawings.ipynb)
 
 This workbook moves from structured patent metadata to the documents contained in a patent application's file wrapper.
 
@@ -198,7 +198,7 @@ Starting with an application number, the notebook retrieves the available file-w
 
 The example provides a bridge between patent metadata and the underlying patent documents.
 
-#### [USPTO-CoInventor-Network.ipynb](https://github.com/geoffswc/Research-Patent-Landscape-Informatics/blob/main/USPTO-CoInventor-Network.ipynb)
+#### [USPTO-CoInventor-Network.ipynb](https://github.com/UCSF-DSOS/Research-Patent-Landscape-Informatics/blob/main/USPTO-CoInventor-Network.ipynb)
 
 This project constructs an inventor collaboration network from USPTO patent application data.
 
@@ -222,13 +222,13 @@ This workshop uses researcher and innovator data from OpenAlex and the USPTO Ope
 
 The two network notebooks are intentionally parallel applications of the same general idea.
 
-[OpenAlex-Coauthor-Network.ipynb](OpenAlex-Coauthor-Network.ipynb) constructs a researcher collaboration network from publication authorship.
+[OpenAlex-Coauthor-Network.ipynb](https://github.com/UCSF-DSOS/Research-Patent-Landscape-Informatics/blob/main/OpenAlex-Coauthor-Network.ipynb) constructs a researcher collaboration network from publication authorship.
 
-[USPTO-CoInventor-Network.ipynb](USPTO-CoInventor-Network.ipynb) constructs an inventor collaboration network from patent inventorship.
+[USPTO-CoInventor-Network.ipynb](https://github.com/UCSF-DSOS/Research-Patent-Landscape-Informatics/blob/main/USPTO-CoInventor-Network.ipynb) constructs an inventor collaboration network from patent inventorship.
 
 ### Local AI Patent Analysis Workbook
 
-#### [USPTO-Ollama-Patent-Analysis.ipynb](USPTO-Ollama-Patent-Analysis.ipynb)
+#### [USPTO-Ollama-Patent-Analysis.ipynb](https://github.com/UCSF-DSOS/Research-Patent-Landscape-Informatics/blob/main/USPTO-Ollama-Patent-Analysis.ipynb)
 
 This capstone combines USPTO data retrieval with locally running generative AI models through [Ollama](https://ollama.com/).
 
