@@ -36,12 +36,12 @@ Research and patent landscape analysis frequently involves incomplete metadata, 
   - [USPTO](#uspto)
   - [Google Patents and BigQuery](#google-patents-and-bigquery)
 - [Workshops](#workshops)
-  - [OpenAlex](#openalex-workbooks)
-  - [Dimensions](#dimensions-workbooks)
-  - [USPTO](#uspto-workbooks)
-  - [Google Patents and BigQuery](#google-patents-and-bigquery-workbook)
-  - [Scholar and Innovator Networks](#network-project-workbooks)
-  - [Local AI Patent Analysis](#local-ai-patent-analysis-workbook)
+  - [OpenAlex Workshop](#openalex-workshop)
+  - [Dimensions Workshop](#dimensions-workshop)
+  - [USPTO Workshop](#uspto-workshop)
+  - [Google Patents and BigQuery Workshop](#google-patents-and-bigquery-workshop)
+  - [Scholar and Innovator Networks Workshop](#network-project-workshop)
+  - [Local AI Patent Analysis Workshop](#local-ai-patent-analysis-workshop)
 - [Exploring Your Own Research Questions](#exploring-your-own-research-questions)
 - [Relationship to the Workshop Series](#relationship-to-the-workshop-series)
 - [Reading and Research Resources](#reading-and-research-resources)
@@ -144,7 +144,7 @@ The notebooks and workshop materials in this repository progress from introducto
 
 Participants are encouraged to modify the examples and investigate researchers, inventors, technologies, grants, and research areas related to their own interests.
 
-### OpenAlex
+### OpenAlex Workshop
 
 #### [OpenAlex-API-Introduction.ipynb](https://github.com/UCSF-DSOS/Research-Patent-Landscape-Informatics/blob/main/OpenAlex-API-Introduction.ipynb)
 
@@ -162,7 +162,7 @@ Starting with one researcher, the notebook retrieves recent publications, identi
 
 The resulting network is constructed and visualized using NetworkX.
 
-### Dimensions
+### Dimensions Workshop
 
 #### [Dimensions-API-Introduction.ipynb](https://github.com/UCSF-DSOS/Research-Patent-Landscape-Informatics/blob/main/Dimensions-API-Introduction.ipynb)
 
@@ -180,7 +180,7 @@ Starting with a research area, the notebook searches Dimensions for grants assoc
 
 The example demonstrates how classifications, identifiers, and relationships in a research information system can be used to move between different kinds of records and investigate connections between research funding and innovation.
 
-### USPTO
+### USPTO Workshop
 
 #### [USPTO-API-Introduction.ipynb](https://github.com/UCSF-DSOS/Research-Patent-Landscape-Informatics/blob/main/USPTO-API-Introduction.ipynb)
 
@@ -206,7 +206,7 @@ Starting with one inventor, the notebook retrieves patent applications, identifi
 
 Inventors become nodes, while appearing together on a patent application creates weighted edges. The resulting network is constructed and visualized using NetworkX.
 
-### Google Patents and BigQuery
+### Google Patents and BigQuery Workshop
 
 #### [GoogleBigQuery.md](GoogleBigQuery.md)
 
@@ -216,7 +216,7 @@ Participants begin with the Google Patents web interface to search for patents a
 
 The examples are intended to be modified to investigate technologies, inventors, organizations, patent classifications, and research areas of interest.
 
-### Network Project
+### Network Project Workshop
 
 This workshop uses researcher and innovator data from OpenAlex and the USPTO Open Data Portal to construct and visualize innovation networks. 
 
@@ -226,7 +226,7 @@ The two network notebooks are intentionally parallel applications of the same ge
 
 [USPTO-CoInventor-Network.ipynb](https://github.com/UCSF-DSOS/Research-Patent-Landscape-Informatics/blob/main/USPTO-CoInventor-Network.ipynb) constructs an inventor collaboration network from patent inventorship.
 
-### Local AI Patent Analysis
+### Local AI Patent Analysis Workshop
 
 #### [USPTO-Ollama-Patent-Analysis.ipynb](https://github.com/UCSF-DSOS/Research-Patent-Landscape-Informatics/blob/main/USPTO-Ollama-Patent-Analysis.ipynb)
 
